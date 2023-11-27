@@ -45,10 +45,3 @@ function playRound(playerSelection, computerSelection) {
     return "You lose! paper beats rock";
   }
 }
-console.log(playRound(playerSelection, computerSelection));
-
-console.log(playRound(playerSelection, computerSelection));
-console.log(playRound(playerSelection, computerSelection));
-
-console.log(playRound(playerSelection, computerSelection));
-console.log(playRound(playerSelection, computerSelection));
