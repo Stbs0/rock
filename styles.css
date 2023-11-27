@@ -8,5 +8,42 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: src "images/background";
+  background: url("images/background.jpg") no-repeat center center / cover;
+  width: 100%;
+}
+.container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(139, 140, 145, 0.5);
+}
+.results {
+  flex: 1 1 0;
+  width: 90%;
+  text-align: center;
+  font-size: 2rem;
+}
+.result-show {
+  display: block;
+  color: red;
+  font-size: 2rem;
+  border: 1px solid gray;
+  text-align: center;
+}
+.choices {
+  flex: 1 1 0;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.choice {
+  background-color: rgb(180, 184, 187);
+  color: rgb(36, 35, 35);
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: 5px;
 }
