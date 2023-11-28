@@ -25,6 +25,8 @@ body {
   width: 90%;
   text-align: center;
   font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 .result-show {
   display: block;
@@ -46,4 +48,15 @@ body {
   font-size: 2rem;
   border-radius: 5px;
   padding: 5px;
+}
+.show {
+  list-style: none;
+}
+li {
+  list-style: none;
+  color: black;
+  font-size: 1.2rem;
+}
+.alert {
+  display: block;
 }
